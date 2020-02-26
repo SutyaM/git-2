@@ -6,3 +6,5 @@ const fgv = (a, b) => {
 }
 
 console.log(fgv(x, y));
+
+let a = 'Hi';
