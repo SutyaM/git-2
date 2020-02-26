@@ -1,8 +1,8 @@
-let x = 5;
-let y = 8;
+let g = 5;
+let z = 8;
 
-const fgv = (a, b) => {
-  return a * b;
+const fgv = (j, k) => {
+  return k * j;
 }
 
 console.log(fgv(x, y));
