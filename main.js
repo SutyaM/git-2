@@ -1,10 +1,12 @@
 let x = 7;
 let y = 15;
-const sum = (a, b) => {
+const sum = (x, y) => {
   return x + y;
 };
 
 console.log(sum(x, y));
 
-let z = x - y;
-console.log(z);
+const f = (x, y) => {
+  return x - y;
+};
+console.log(f(y, x));
