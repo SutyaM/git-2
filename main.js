@@ -5,3 +5,6 @@ const sum = (a, b) => {
 };
 
 console.log(sum(x, y));
+
+let z = x - y;
+console.log(z);
